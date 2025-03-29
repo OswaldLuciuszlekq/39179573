@@ -1,3 +1,4 @@
+public void init(FileInputStream fs) throws ClassNotFoundException, SQLException, FileNotFoundException, IOException
 String userName = props.getProperty("db.user");
 out.write(”aString”);
 PreparedStatement ps = con.prepareStatement("select SYSDATE from dual");
